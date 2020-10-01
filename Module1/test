@@ -8,7 +8,7 @@
 }
 
 header {
-    background-color: #650;
+    background-color:black;
     padding: 30 px;
     text-align: center;
     font-size: 35px;
@@ -17,6 +17,7 @@ header {
 
 .column {
   float: left;
+  border: 2px;
   width: 20%;
   padding: 5px;
   height: 300px; 
@@ -27,10 +28,9 @@ header {
   width: 80%;
   padding: 5px;
   height: 300px; 
-  color: #700;
+  color:white;
 }
 
-/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
@@ -47,40 +47,47 @@ body {
 }
 
 footer {
-    background-color: #630;
+    background-color: black;
     padding: 10px;
     text-align: center;
     color: white;
+    margin-bottom: 10px;
 }
 </style>
 </head>
 <body>
 <header>
-<h1><img src="vvce_logo.png" width="100" height="100" alt="logo" /> Vidyavardhaka College of Engineering</h1>
+<h1 ><img src="vvce_logo.png" width="100" height="100" alt="logo" /> Vidyavardhaka College of Engineering</h1>
  </header>
 
 
 <div class="row">
   <div class="column" style="background-color:#aaa;">
-    <h2>Courses offered by VVCE</h2>
+    <h2>Courses offered</h2>
     
-    <ol>
-  <li>ME</li>
+    <ol style="color: white;">
   <li>CS</li>
+  <li>IS</li>
   <li>EE</li>
   <li>EC</li>
-  <li>IS</li>
+  <li>MECH</li>
   <li>CV</li>
 </ol> 
     </p>
   </div>
   <div class="column2" style="background-color:#bbb;">
-    <h2>Our Pride, Our VVCE!</h2>
-    <p>Established in 1997, VVCE is an autonomous institute affiliated to Visvesvaraya Technological University (VTU), Belagavi, approved by AICTE & UGC, New Delhi and recognized by Govt. of Karnataka. Five UG programs are accredited by National Board of Accreditation, New Delhi. VVCE is also accredited by NAAC with “A” grade. VVCE offers six UG programs, three PG programs and nine Research Centres for pursuing PhD programs, with a total student population of over 3200.  The college has excellent infrastructure coupled with qualified and passionate faculty team to provide a perfect learning ambience. The college is under the able leadership of Dr. B. Sadashive Gowda, PhD (IISc) as Principal, who has rich experience in industry and education fields both in India and abroad.</p>
+    <i><h2 style="color: black;">Our Pride, Our VVCE!</h2></i>
+    <p>Established in 1997, <strong style="color: black;">VVCE</strong> is an autonomous institute affiliated to Visvesvaraya Technological University (VTU), Belagavi, approved by AICTE & UGC, New Delhi and recognized by Govt. of Karnataka. Five UG programs are accredited by National Board of Accreditation, New Delhi. <strong style="color: black;">VVCE</strong> is also accredited by NAAC with “A” grade. <strong style="color: black;">VVCE</strong> offers six UG programs, three PG programs and nine Research Centres for pursuing PhD programs, with a total student population of over 3200.  The college has excellent infrastructure coupled with qualified and passionate faculty team to provide a perfect learning ambience. The college is under the able leadership of <i style="color: blue;">Dr. B. Sadashive Gowda, PhD (IISc)</i> as Principal, who has rich experience in industry and education fields both in India and abroad.</p>
+    <figure>
+        <img src="vvce_college.jpg"  height="100px" width="100px" ></img>
+        <figcaption  style="color: blue;">vvce campus</figcaption>
+    </figure>
+    
   </div>
 </div>
 <footer>
- <p>Developed by Sahana S</p>
+ <p>Designed and developed by: Sahana S</p>
  </footer>
 </body>
 </html>
+
